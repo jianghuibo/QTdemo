@@ -15,6 +15,7 @@ Widget::Widget(QWidget *parent)
     vbox->addWidget(p2);
     //新增加的内容
     //接入
+    //子啊
     QVBoxLayout *vbox2 = new QVBoxLayout;
 
     this->setLayout(vbox);
