@@ -13,6 +13,9 @@ Widget::Widget(QWidget *parent)
     QVBoxLayout *vbox = new QVBoxLayout;
     vbox->addWidget(p1);
     vbox->addWidget(p2);
+    //新增加的内容
+    QVBoxLayout *vbox2 = new QVBoxLayout;
+
     this->setLayout(vbox);
 
 }
